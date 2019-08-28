@@ -7,7 +7,7 @@ const header = (props) =>{
     return(
         <div className={classes['header-container']}>
         <div className={classes['content']}>
-            <h1 className={classes['header-title']}>CHOOSE YOUR FAVORIT STAR-WARS MOVIE</h1>
+            <h1 className={classes['header-title']}>CHOOSE YOUR FAVORITE STAR-WARS MOVIE</h1>
           
         </div>
         </div>

@@ -5,13 +5,13 @@
     font-family: 'Gilroy-Light'; 
     font-style: normal;
   font-weight: 900;
-    src: url('./assets/fonts/Gilroy-FREE/Gilroy-Light.otf') ;
+    src: url('./assets/fonts/star_jedi/starjout/Starjout.ttf') ;
     src: local('Gilroy-Light'), local('GilroyLight'),
   };
   @font-face { 
     font-family: 'Gilroy-bold'; 
     font-style: normal;
-    src: url('./assets/fonts/Gilroy-FREE/Gilroy-ExtraBold.otf') ;
+    src: url('./assets/fonts/star_jedi/starjout/Starjout.ttf') ;
     src: local('Gilroy-bold'), local('Gilroybold'),
   };
 body {
