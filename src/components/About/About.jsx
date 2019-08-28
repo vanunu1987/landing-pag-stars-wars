@@ -4,7 +4,8 @@ import MovieList from '../MovieList/MovieList';
 
 const about = (props) =>(
     <div className={classes['about-container']}>
-        <MovieList movies={props.movies}/>
+        <MovieList movies={props.movies} 
+        savedMovie={props.savedMovie}/>
     </div>
 )
 export default about 
