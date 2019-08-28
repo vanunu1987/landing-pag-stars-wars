@@ -1,10 +1,25 @@
+
+  
+
+  @font-face { 
+    font-family: 'Gilroy-Light'; 
+    font-style: normal;
+  font-weight: 900;
+    src: url('./assets/fonts/Gilroy-FREE/Gilroy-Light.otf') ;
+    src: local('Gilroy-Light'), local('GilroyLight'),
+  };
+  @font-face { 
+    font-family: 'Gilroy-bold'; 
+    font-style: normal;
+    src: url('./assets/fonts/Gilroy-FREE/Gilroy-ExtraBold.otf') ;
+    src: local('Gilroy-bold'), local('Gilroybold'),
+  };
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  margin: 0px;
+  font-family: 'Gilroy-Light';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
