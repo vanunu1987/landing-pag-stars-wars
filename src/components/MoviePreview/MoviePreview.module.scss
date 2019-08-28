@@ -6,9 +6,21 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    border-radius: 5px;
     h1{
         padding: 5px;
         margin: 5px;
+        font-size: 1rem;
+    }
+    span{
+        margin-bottom: 3px;
     }
 
+    .img-movie{
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-position-y: -110px
+
+    }
 }
