@@ -4,7 +4,8 @@ import MoviePreview from '../MoviePreview/MoviePreview';
 const movieList = (props) =>{
     console.log(props);
     
-    let movieForDisplay =(props.movies)?props.movies.map(movie=><li key={movie.title}><MoviePreview  movie={movie} savedMovie={props.savedMovie}/></li>):''
+    let movieForDisplay =(props.movies)?props.movies.map(movie=><li key={movie.title}><MoviePreview  
+        movie={movie} savedMovie={props.savedMovie} click={props.click}/></li>):''
     return(
         <div className={classes['list-container']}>
             <ul>

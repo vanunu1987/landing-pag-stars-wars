@@ -21,6 +21,13 @@ class layout extends Component {
        
 
     }
+    handleSave =(movieTitle)=>{
+        let savedMovies = (!utilService.loadFromStorage('movies'))?{}:utilService.loadFromStorage('movies')
+        let val= (savedMovies[movieTitle]) ? false:true
+        savedMovies = {...savedMovies,[movieTitle]: val}
+        utilService.saveToStorage('movies',savedMovies)
+        this.setState({savedMovie:savedMovies})
+    }
 
     
     render() { 
@@ -28,7 +35,8 @@ class layout extends Component {
             <div className={classes['main-layout']}>
                 <Header click={this.handelClick}/>
                 <About movies={this.state.movies } 
-                savedMovie={this.state.savedMovie}/>
+                savedMovie={this.state.savedMovie}
+                click={this.handleSave}/>
 
             </div>
           );
