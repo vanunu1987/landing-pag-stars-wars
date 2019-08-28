@@ -1,8 +1,4 @@
-import Axios from 'axios';
 
-var axios = Axios.create({
-    withCredentials: true
-});
 
 
 
