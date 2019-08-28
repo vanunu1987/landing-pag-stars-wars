@@ -4,12 +4,14 @@ import Header from '../../components/Header/Header'
 import About from '../../components/About/About'
 import movieServise from '../../services/movieService'
 import utilService from '../../services/utilService'
+import Backdrop from '../../components/ui/Backdrop/Backdrop'
 
 
 class layout extends Component {
     state = {  
         movies: null,
-        savedMovie: []
+        savedMovie: [],
+        show:false
     }
 
     async componentDidMount(){
@@ -29,15 +31,28 @@ class layout extends Component {
         this.setState({savedMovie:savedMovies})
     }
 
+    handleBackdrop=()=>{
+        console.log('innnnn');
+        
+        this.setState(prevState =>{
+            let newVal = !prevState.show
+            return {show: newVal}
+        })
+    }
+
     
     render() { 
         return (
             <div className={classes['main-layout']}>
+                <Backdrop show={this.state.show} clicked={this.handleBackdrop}/>
                 <Header click={this.handelClick}/>
                 <About movies={this.state.movies } 
                 savedMovie={this.state.savedMovie}
-                click={this.handleSave}/>
-
+                click={this.handleSave}
+                backdrop={this.handleBackdrop}
+                show={this.state.show}
+                />
+                
             </div>
           );
     }

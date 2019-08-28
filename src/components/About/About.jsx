@@ -6,7 +6,9 @@ const about = (props) =>(
     <div className={classes['about-container']}>
         <MovieList movies={props.movies} 
         savedMovie={props.savedMovie}
-        click={props.click}/>
+        click={props.click}
+        backdrop={props.backdrop}
+        show={props.show}/>
     </div>
 )
 export default about 

@@ -5,7 +5,7 @@ const movieList = (props) =>{
     console.log(props);
     
     let movieForDisplay =(props.movies)?props.movies.map(movie=><li key={movie.title}><MoviePreview  
-        movie={movie} savedMovie={props.savedMovie} click={props.click}/></li>):''
+        movie={movie} savedMovie={props.savedMovie} click={props.click} backdrop={props.backdrop} show={props.show}/></li>):''
     return(
         <div className={classes['list-container']}>
             <ul>
