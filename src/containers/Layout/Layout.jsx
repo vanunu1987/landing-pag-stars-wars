@@ -7,6 +7,7 @@ import utilService from '../../services/utilService'
 import Backdrop from '../../components/ui/Backdrop/Backdrop'
 
 
+
 class layout extends Component {
     state = {  
         movies: null,
@@ -42,6 +43,7 @@ class layout extends Component {
 
     
     render() { 
+        
         return (
             <div className={classes['main-layout']}>
                 <Backdrop show={this.state.show} clicked={this.handleBackdrop}/>
@@ -52,7 +54,6 @@ class layout extends Component {
                 backdrop={this.handleBackdrop}
                 show={this.state.show}
                 />
-                
             </div>
           );
     }

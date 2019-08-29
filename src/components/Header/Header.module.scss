@@ -7,6 +7,7 @@
     background-size: cover;
     background-position: center;
     transition: all 0.3s ease;
+    font-family: 'Gilroy-bold';
     
 }
 .content{
@@ -24,4 +25,14 @@
     margin-bottom: 1rem;
     font-weight: bold;
     max-width: 462px;
+}
+.go-btn{
+    width: 300px;
+    padding: 25px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 37%;
+    margin-top: 150px;
+    font-family: 'Gilroy-bold';
 }
