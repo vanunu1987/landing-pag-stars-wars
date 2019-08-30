@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd6be8293b0e5858f8b4445827ab2ced",
+    "revision": "c77168c0cbc8d863ec21d35e3fb8857b",
     "url": "/landing-pag-stars-wars/index.html"
   },
   {
-    "revision": "04ea87341f74753f5e0a",
+    "revision": "ca9dafe12aa4f263d4fa",
     "url": "/landing-pag-stars-wars/static/css/main.4cbea8cf.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-pag-stars-wars/static/js/2.3802c709.chunk.js"
   },
   {
-    "revision": "04ea87341f74753f5e0a",
-    "url": "/landing-pag-stars-wars/static/js/main.547a87e2.chunk.js"
+    "revision": "ca9dafe12aa4f263d4fa",
+    "url": "/landing-pag-stars-wars/static/js/main.4c9f30da.chunk.js"
   },
   {
     "revision": "7a0de2b76227fc132b41",

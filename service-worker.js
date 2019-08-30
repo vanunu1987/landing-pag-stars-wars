@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/landing-pag-stars-wars/precache-manifest.39ef6e0287c52cb7a2ea9775a51fcb6f.js"
+  "/landing-pag-stars-wars/precache-manifest.da450487c1060057bc96fd42546b7a8a.js"
 );
 
 self.addEventListener('message', (event) => {
