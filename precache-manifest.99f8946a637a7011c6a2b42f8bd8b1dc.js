@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c77168c0cbc8d863ec21d35e3fb8857b",
+    "revision": "6f83045c46f02ef9c8da0762de0f5dd7",
     "url": "/landing-pag-stars-wars/index.html"
   },
   {
-    "revision": "ca9dafe12aa4f263d4fa",
-    "url": "/landing-pag-stars-wars/static/css/main.4cbea8cf.chunk.css"
+    "revision": "5984511860261539d4e6",
+    "url": "/landing-pag-stars-wars/static/css/main.18edffa4.chunk.css"
   },
   {
     "revision": "a693d6ee5977c1c2aaf8",
     "url": "/landing-pag-stars-wars/static/js/2.3802c709.chunk.js"
   },
   {
-    "revision": "ca9dafe12aa4f263d4fa",
+    "revision": "5984511860261539d4e6",
     "url": "/landing-pag-stars-wars/static/js/main.4c9f30da.chunk.js"
   },
   {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-pag-stars-wars/static/css/main.4cbea8cf.chunk.css",
+    "main.css": "/landing-pag-stars-wars/static/css/main.18edffa4.chunk.css",
     "main.js": "/landing-pag-stars-wars/static/js/main.4c9f30da.chunk.js",
     "main.js.map": "/landing-pag-stars-wars/static/js/main.4c9f30da.chunk.js.map",
     "runtime~main.js": "/landing-pag-stars-wars/static/js/runtime~main.cbddc72b.js",
@@ -8,9 +8,9 @@
     "static/js/2.3802c709.chunk.js": "/landing-pag-stars-wars/static/js/2.3802c709.chunk.js",
     "static/js/2.3802c709.chunk.js.map": "/landing-pag-stars-wars/static/js/2.3802c709.chunk.js.map",
     "index.html": "/landing-pag-stars-wars/index.html",
-    "precache-manifest.da450487c1060057bc96fd42546b7a8a.js": "/landing-pag-stars-wars/precache-manifest.da450487c1060057bc96fd42546b7a8a.js",
+    "precache-manifest.99f8946a637a7011c6a2b42f8bd8b1dc.js": "/landing-pag-stars-wars/precache-manifest.99f8946a637a7011c6a2b42f8bd8b1dc.js",
     "service-worker.js": "/landing-pag-stars-wars/service-worker.js",
-    "static/css/main.4cbea8cf.chunk.css.map": "/landing-pag-stars-wars/static/css/main.4cbea8cf.chunk.css.map",
+    "static/css/main.18edffa4.chunk.css.map": "/landing-pag-stars-wars/static/css/main.18edffa4.chunk.css.map",
     "static/media/index.css": "/landing-pag-stars-wars/static/media/Starjout.f72f509a.ttf",
     "static/media/About.module.scss": "/landing-pag-stars-wars/static/media/background.65cf4d05.png",
     "static/media/Header.module.scss": "/landing-pag-stars-wars/static/media/header.c19759a5.jpg"
