@@ -4,22 +4,26 @@
   @font-face { 
     font-family: 'Gilroy-Light'; 
     font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
     src: url('./assets/fonts/star_jedi/starjout/Starjout.ttf') ;
     src: local('Gilroy-Light'), local('GilroyLight'),
   };
-  @font-face { 
+  /* @font-face { 
     font-family: 'Gilroy-bold'; 
     font-style: normal;
     src: url('./assets/fonts/star_jedi/starjout/Starjout.ttf') ;
     src: local('Gilroy-bold'), local('Gilroybold'),
-  };
+  }; */
 body {
   margin: 0px;
   font-family: 'Gilroy-Light';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
+}
+button{
+  font-family: 'Gilroy-Light';
+
 }
 
 code {

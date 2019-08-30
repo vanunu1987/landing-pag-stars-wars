@@ -7,7 +7,6 @@
     background-size: cover;
     background-position: center;
     transition: all 0.3s ease;
-    font-family: 'Gilroy-bold';
     
 }
 .content{
@@ -16,10 +15,9 @@
     padding-top: 100px;
 }
 .header-title{
-    font-family: 'Gilroy-bold';
     margin: 0px;
     font-size: 4rem;
-    color: white;
+    color: #ffb300;
     letter-spacing: -.1rem;
     line-height: 1;
     margin-bottom: 1rem;
@@ -27,12 +25,40 @@
     max-width: 462px;
 }
 .go-btn{
-    width: 300px;
+    width: 330px;
     padding: 25px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: 5px;
-    background-color: white;
-    margin-left: 37%;
-    margin-top: 150px;
-    font-family: 'Gilroy-bold';
+    background-color: #ffb300;
+    
+    cursor: pointer;
+    position: absolute;
+    margin: -165px;
+    top: 85%;
+    left: 50%;
+    transition: background-color .3s ease;
+
+    &:hover{
+        background-color:  lighten(#ffb300,15%);
+    }
+}
+
+
+@media (max-width: 1160px) {
+    .header-title{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        max-width: 1100px;
+    }
+    .content{
+
+        padding-top: 60px;
+        margin-left: 35px
+
+    }
+    .header-container{
+        background-position-y: 60px;
+
+    }
+
 }

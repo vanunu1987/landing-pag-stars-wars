@@ -14,10 +14,10 @@ const header = (props) =>{
     return(
         <div className={classes['header-container']}>
         <div className={classes['content']}>
-            <h1 className={classes['header-title']}>CHOOSE YOUR FAVORITE STAR-WARS MOVIE</h1>
-            <button onClick={()=>scrollToElement()} className={classes['go-btn']} >May the force be with you</button>
+            <h1 className={classes['header-title']}>CHooSE YoUR FAVoRiTE STAR-WARS MoViE</h1>
             
         </div>
+            <button onClick={()=>scrollToElement()} className={classes['go-btn']} >May the force be with you</button>
         </div>
     )
 }

@@ -9,3 +9,21 @@
     z-index: 110;
     width: 50vw;
 }
+@media (max-width: 900px) {
+    .modal-container{
+        top: 20vh;
+        left: 10vw;
+        width: 80vw;
+
+    }
+}
+
+@media (max-width: 495px) {
+    .modal-container{
+        top: 22vh;
+        left: 5vw;
+        width: 90vw;
+
+    }
+}
+
