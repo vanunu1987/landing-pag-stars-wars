@@ -5,7 +5,7 @@ import Modal from '../ui/Modal/Modal'
 const MoviePreview = (props) =>{
     let movieTitle = props.movie.title
     let movie = props.savedMovie && Object.keys(props.savedMovie).find(movie=> movie===movieTitle)
-    let fab = (props.savedMovie[movie])?"fas fa-bookmark ":"far fa-bookmark "
+    let fab = props.savedMovie && (props.savedMovie[movie])?"fas fa-bookmark ":"far fa-bookmark "
     let img = utilService.getImg(movieTitle)
     let modalCmp = (props.show)? <Modal movie={props.movie}/>:""
     
